@@ -71,6 +71,70 @@ body {
 
 /* Imágenes de las tarjetas de eventos */
 .card-img-top {
-    height: 220px;
-    object-fit: cover;
+  height: 220px;
+  object-fit: cover;
+}
+
+
+/*YOOOOOOOO*/
+
+.btn-vlvr {
+  margin: 25px;
+  background-color: var(--azul);
+  color: #F7F8FC;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: all 0.4s ease;
+  display: inline-block;
+}
+
+.btn-vlvr:hover {
+  background-color: #000;
+  color: #FFFFFF;
+  text-shadow:
+    0px 0px 6px #67E8F9,
+    0px 0px 8px#67E8F9,
+    0px 0px 15px #67E8F9;
+  border-radius: 5px;
+}
+
+.dtll-ev {
+  margin: 30px;
+  padding: 20px;
+  background-color: var(--azul);
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  min-height: 220px;
+}
+
+.dtll-txt {
+  font-size: 125%;
+  padding: 30px;
+}
+
+.ubi {
+  margin: 30px;
+  padding: 20px;
+  background-color: #1B2A4A;
+  color: #fff;
+  min-height: 250px;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-whatsapp img {
+  width: 150px;
+  height: 130px;
+  display: block;
 }

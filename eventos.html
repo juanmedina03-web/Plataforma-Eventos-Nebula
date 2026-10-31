@@ -46,6 +46,10 @@
             <a class="nav-link" href="contacto.html">Contacto</a>
           </li>
 
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Cierra sesión</a>
+          </li>
+
         </ul>
       </div>
 
@@ -62,13 +66,16 @@
 
   <div class="card h-100">
 
-    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" 
+    <a href="/detalleIT.html" onclick="open.window">
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" 
          class="card-img-top" 
          alt="Personas participando en un evento tecnológico">
+    </a>
 
     <div class="card-body">
-
-      <h2 class="card-title">Innovación y Tecnología 2026</h2>
+      <a href="/detalleIT.html" onclick="open.window">
+        <h2 class="card-title">Innovación y Tecnología 2026</h2>
+      </a>
 
       <p class="card-text">
         Encuentro sobre innovación, tecnología y nuevas herramientas
@@ -92,13 +99,15 @@
 
   <div class="card h-100">
 
-    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
-         class="card-img-top"
-         alt="Persona trabajando en desarrollo web">
+    <a href="/detalleDW.html" onclick="open.window">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+          class="card-img-top"
+          alt="Persona trabajando en desarrollo web">
+    </a>
 
     <div class="card-body">
-
-      <h2 class="card-title">Desarrollo Web y Nuevas Tecnologías</h2>
+      <a href="/detalleDW.html" onclick="open.window"><h2 class="card-title">Desarrollo Web y Nuevas Tecnologías</h2></a>
+      
 
       <p class="card-text">
         Conferencia sobre las nuevas tendencias del desarrollo web
@@ -122,13 +131,18 @@
 
   <div class="card h-100">
 
-    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995"
+    <a href="/detalleIA.html" onclick="open.window">
+      <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995"
          class="card-img-top"
          alt="Inteligencia artificial y tecnología">
+    </a>
+
 
     <div class="card-body">
-
-      <h2 class="card-title">Inteligencia Artificial para el Futuro</h2>
+      <a href="/detalleIA.html" onclick="open.window">
+        <h2 class="card-title">Inteligencia Artificial para el Futuro</h2>
+      </a>
+      
 
       <p class="card-text">
         Espacio para conocer aplicaciones de la inteligencia artificial
@@ -152,13 +166,15 @@
 
   <div class="card h-100">
 
-    <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d"
+    <a href="/detalleCEI.html" onclick="open.window">
+      <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d"
          class="card-img-top"
          alt="Personas realizando actividades científicas">
+    </a>
 
     <div class="card-body">
 
-      <h2 class="card-title">Ciencia, Educación e Innovación</h2>
+      <a href="/detalleCEI.html" onclick="open.window"><h2 class="card-title">Ciencia, Educación e Innovación</h2></a>
 
       <p class="card-text">
         Encuentro académico dedicado a compartir ideas y proyectos
@@ -182,13 +198,17 @@
 
   <div class="card h-100">
 
-    <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f"
+    <a href="/detalleCDS.html" onclick="open.window">
+      <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f"
          class="card-img-top"
          alt="Tecnología y cultura digital">
+    </a>
 
     <div class="card-body">
 
-      <h2 class="card-title">Cultura Digital y Sociedad</h2>
+      <a href="/detalleCDS.html" onclick="open.window">
+        <h2 class="card-title">Cultura Digital y Sociedad</h2>
+      </a>
 
       <p class="card-text">
         Conversatorio sobre la manera en que la tecnología influye
@@ -212,13 +232,17 @@
 
   <div class="card h-100">
 
-    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72"
+    <a href="/detalleET.html" onclick="open.window">
+      <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72"
          class="card-img-top"
          alt="Personas reunidas en un evento de emprendimiento">
+    </a>
 
     <div class="card-body">
 
-      <h2 class="card-title">Emprendimiento y Tecnología</h2>
+      <a href="/detalleET.html" onclick="open.window">
+        <h2 class="card-title">Emprendimiento y Tecnología</h2>
+      </a>
 
       <p class="card-text">
         Encuentro para conocer proyectos tecnológicos, ideas de negocio
@@ -249,6 +273,16 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <button type="button" class="btn-whatsapp" id="btnWhatsApp">
+  <img src="img/whatsapp1.png" alt="WhatsApp" width="50">
+  </button>
+  <script>
+  document.getElementById("btnWhatsApp").addEventListener("click", function() {
+    window.open("https://wa.me/+573001234567", "_blank");
+  });
+  </script> 
+
+  
 
 </body>
 </html>
